@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:name=".FinoraApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Finora"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Finora">
+
+        <activity android:name=".ui.auth.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.auth.RegisterActivity"/>
+        <activity android:name=".ui.dashboard.DashboardActivity"/>
+        <activity android:name=".ui.expenses.ExpensesActivity"/>
+        <activity android:name=".ui.reports.ReportsActivity"/>
+        <activity android:name=".ui.budget.BudgetActivity"/>
+        <activity android:name=".ui.settings.SettingsActivity"/>
+    </application>
+
+</manifest>

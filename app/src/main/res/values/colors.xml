@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="accent">#4F46E5</color>
+    <color name="accent_hover">#4338CA</color>
+    <color name="accent_soft">#EEF2FF</color>
+
+    <!-- Surfaces -->
+    <color name="white">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_soft">#F6F7F9</color>
+
+    <!-- Text -->
+    <color name="ink">#0F1419</color>
+    <color name="ink_soft">#4B5563</color>
+    <color name="ink_muted">#8892A0</color>
+
+    <!-- Borders -->
+    <color name="border">#E7E9ED</color>
+    <color name="border_strong">#D1D5DB</color>
+
+    <!-- Semantic -->
+    <color name="danger">#F87171</color>
+    <color name="danger_soft">#FEE2E2</color>
+    <color name="success">#34D399</color>
+    <color name="success_soft">#D1FAE5</color>
+    <color name="warning">#FBBF24</color>
+    <color name="warning_soft">#FEF3C7</color>
+
+    <!-- Category tints (icon backgrounds) -->
+    <color name="cat_food_bg">#FEF3C7</color>
+    <color name="cat_food_icon">#92400E</color>
+    <color name="cat_transport_bg">#DBEAFE</color>
+    <color name="cat_transport_icon">#1E40AF</color>
+    <color name="cat_shopping_bg">#EDE9FE</color>
+    <color name="cat_shopping_icon">#5B21B6</color>
+    <color name="cat_health_bg">#D1FAE5</color>
+    <color name="cat_health_icon">#065F46</color>
+    <color name="cat_entertainment_bg">#FEE2E2</color>
+    <color name="cat_entertainment_icon">#991B1B</color>
+    <color name="cat_bills_bg">#E0F2FE</color>
+    <color name="cat_bills_icon">#075985</color>
+    <color name="cat_education_bg">#F3E8FF</color>
+    <color name="cat_education_icon">#6B21A8</color>
+    <color name="cat_other_bg">#F1F5F9</color>
+    <color name="cat_other_icon">#475569</color>
+
+    <!-- Income tint -->
+    <color name="income_bg">#D1FAE5</color>
+    <color name="income_icon">#065F46</color>
+    <color name="income_text">#059669</color>
+
+    <!-- Dark mode overrides (used in night/ folder) -->
+    <color name="surface_dark">#0B0D10</color>
+    <color name="surface_soft_dark">#111418</color>
+    <color name="ink_dark">#F4F5F7</color>
+    <color name="border_dark">#1E2228</color>
+    <color name="accent_dark">#818CF8</color>
+</resources>

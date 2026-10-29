@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="accent">#818CF8</color>
+    <color name="accent_hover">#6366F1</color>
+    <color name="accent_soft">#1E1B4B</color>
+
+    <!-- Surfaces -->
+    <color name="white">#FFFFFF</color>
+    <color name="surface">#1A1D24</color>
+    <color name="surface_soft">#111318</color>
+
+    <!-- Text -->
+    <color name="ink">#F1F5F9</color>
+    <color name="ink_soft">#94A3B8</color>
+    <color name="ink_muted">#64748B</color>
+
+    <!-- Borders -->
+    <color name="border">#2A2F3B</color>
+    <color name="border_strong">#3F4656</color>
+
+    <!-- Semantic -->
+    <color name="danger">#F87171</color>
+    <color name="danger_soft">#451A03</color>
+    <color name="success">#34D399</color>
+    <color name="success_soft">#064E3B</color>
+    <color name="warning">#FBBF24</color>
+    <color name="warning_soft">#451A03</color>
+
+    <!-- Category tints (dark mode subtle & realistic) -->
+    <color name="cat_food_bg">#2D2211</color>
+    <color name="cat_food_icon">#FBBF24</color>
+    <color name="cat_transport_bg">#11223B</color>
+    <color name="cat_transport_icon">#60A5FA</color>
+    <color name="cat_shopping_bg">#251A3A</color>
+    <color name="cat_shopping_icon">#C084FC</color>
+    <color name="cat_health_bg">#0F2E23</color>
+    <color name="cat_health_icon">#34D399</color>
+    <color name="cat_entertainment_bg">#3A1A1A</color>
+    <color name="cat_entertainment_icon">#F87171</color>
+    <color name="cat_bills_bg">#112A3A</color>
+    <color name="cat_bills_icon">#38BDF8</color>
+    <color name="cat_education_bg">#2B1B3A</color>
+    <color name="cat_education_icon">#E879F9</color>
+    <color name="cat_other_bg">#1E232F</color>
+    <color name="cat_other_icon">#94A3B8</color>
+
+    <!-- Income tint -->
+    <color name="income_bg">#0F2E23</color>
+    <color name="income_icon">#34D399</color>
+    <color name="income_text">#34D399</color>
+</resources>

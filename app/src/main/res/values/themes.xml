@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Finora" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Brand colors -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accent_hover</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent_soft</item>
+        <item name="colorOnSecondary">@color/accent</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="colorError">@color/danger</item>
+
+        <!-- System bars -->
+        <item name="android:statusBarColor">@color/surface_soft</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorBackground">@color/surface_soft</item>
+
+        <!-- Text styles -->
+        <item name="android:textColorPrimary">@color/ink</item>
+        <item name="android:textColorSecondary">@color/ink_muted</item>
+
+        <!-- Material text field accent -->
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="colorControlHighlight">@color/accent_soft</item>
+
+        <!-- Ripple -->
+        <item name="colorControlNormal">@color/ink_muted</item>
+    </style>
+
+    <!-- Splash screen (used before main content loads) -->
+    <style name="Theme.Finora.Splash" parent="Theme.Finora">
+        <item name="android:statusBarColor">@color/accent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/accent</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="TextStyle" />
+    <style name="TextStyle.PageTitle" parent="TextStyle">
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.Heading" parent="TextStyle">
+        <item name="android:textSize">@dimen/text_heading</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.SectionLabel" parent="TextStyle">
+        <item name="android:textSize">@dimen/text_label</item>
+        <item name="android:textColor">@color/ink_muted</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.Body" parent="TextStyle">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/ink_soft</item>
+    </style>
+
+    <style name="TextStyle.Caption" parent="TextStyle">
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:textColor">@color/ink_muted</item>
+    </style>
+
+    <!-- Card styles -->
+    <style name="CardStyle" />
+
+    <style name="CardStyle.Default" parent="CardStyle">
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/border</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+    </style>
+
+    <style name="CardStyle.Accent" parent="CardStyle">
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/accent</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="BtnStyle.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">@dimen/btn_radius</item>
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">@dimen/btn_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/btn_padding_vertical</item>
+    </style>
+    <style name="BtnStyle.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">@dimen/btn_radius</item>
+        <item name="strokeColor">@color/accent</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">@dimen/btn_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/btn_padding_vertical</item>
+    </style>
+    <!-- Text field style -->
+    <style name="FieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/field_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/field_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/field_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/field_radius</item>
+        <item name="boxStrokeColor">@color/border</item>
+        <item name="hintTextColor">@color/ink_muted</item>
+    </style>
+
+</resources>
